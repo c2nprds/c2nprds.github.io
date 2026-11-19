@@ -1,0 +1,19 @@
+index.html
+  s_60a9eb7c166f27::t_22b6b53bbf5cd4 70-71,73-74,76-80,83-84,107-112
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c7f6e375c51c9d51f8f656f4d5ca1eca40ce4c92",
+  "prompts": {},
+  "sessions": {
+    "s_60a9eb7c166f27": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b5786185-4d41-45ac-9913-02fd8accb08c",
+        "model": "unknown"
+      },
+      "human_author": "c2nprds <c2nprds@gmail.com>"
+    }
+  }
+}
