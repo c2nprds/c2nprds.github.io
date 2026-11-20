@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>c2nprds.com</title>
-<meta name="description" content="Daisuke Yokoyama（c2nprds）の自己紹介。Software Engineer・Web Developer・Editor。坂戸市在住。入力した中身を送らずにブラウザの中で使える無料の Web ツール集「入力を送らないツール」を作っています。">
+<meta name="description" content="Daisuke Yokoyama（c2nprds）の自己紹介。Software Engineer・Web Developer・Editor。坂戸市在住。サーバーにデータを保存しない無料の Web ツール集「ノコサンゾー」を作っています。">
 <link rel="canonical" href="https://c2nprds.com/">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="c2nprds.com">
-<meta property="og:description" content="Daisuke Yokoyama（c2nprds）の自己紹介。Software Engineer・Web Developer・Editor。坂戸市在住。入力した中身を送らずにブラウザの中で使える無料の Web ツール集「入力を送らないツール」を作っています。">
+<meta property="og:description" content="Daisuke Yokoyama（c2nprds）の自己紹介。Software Engineer・Web Developer・Editor。坂戸市在住。サーバーにデータを保存しない無料の Web ツール集「ノコサンゾー」を作っています。">
 <meta property="og:url" content="https://c2nprds.com/">
 <meta property="og:site_name" content="c2nprds.com">
 <meta property="og:locale" content="ja_JP">
@@ -31,7 +31,7 @@
   }
 </script>
 <style>
-  /* 色はツール集（入力を送らないツール）にそろえる。書体は外から読まず、端末の書体を使う */
+  /* 色はツール集（ノコサンゾー）にそろえる。書体は外から読まず、端末の書体を使う */
   :root {
     --c-bg: #f6f8fb;
     --c-surface: #ffffff;
@@ -107,8 +107,8 @@
   section a:not(.link):not(.category) { color: var(--c-accent-ink); }
   /* ツール集を開くリンクは、見出しのすぐ下に置いて目立たせる（色はほかのリンクと同じ） */
   .tools-open { margin-top: 16px; }
-  /* 狭い画面で、見出しのサイト名が語の途中で割れないよう、かぎかっこごとにまとめる */
-  .nowrap { white-space: nowrap; }
+  /* 見出しのサイト名に添えるサブタイトル */
+  section p.tools-subtitle { margin-top: 4px; color: var(--c-muted); font-size: 14px; }
   /* 狭い画面では、リンクの名前が 2 行に割れないよう、横の URL を出さない */
   @media (max-width: 479px) { .tools-open span { display: none; } }
   /* カテゴリは名前と短い説明を 2 行で出す。幅に余裕があれば 2 列にする */
@@ -147,8 +147,9 @@
     </div>
   </div>
   <section aria-labelledby="tools-heading">
-    <h2 id="tools-heading">ツール集<span class="nowrap">「入力を送らないツール」</span></h2>
-    <a class="link tools-open" href="https://c2nprds.com/tools/">入力を送らないツールを開く <span>c2nprds.com/tools/</span></a>
+    <h2 id="tools-heading">ノコサンゾー</h2>
+    <p class="tools-subtitle">サーバーにデータを保存しないツール集</p>
+    <a class="link tools-open" href="https://c2nprds.com/tools/">ノコサンゾーを開く <span>c2nprds.com/tools/</span></a>
     <p>計算や文字・画像・ファイルの変換のような小さな作業を、登録なしでその場で片付けるための、無料の Web ツール集です。c2nprds が個人で作り、手入れしています。</p>
     <p>どのツールもブラウザの中で動き、入力したファイルや文字の中身をブラウザの外に送りません。給与や税金の計算、名簿や書類の整形、写真の加工のように、中身をよそのサーバーに渡したくない作業に使えます。入力の中身のほかに、何がどこに送られるかは、<a href="https://c2nprds.com/tools/privacy/">プライバシーポリシー</a>に書いています。</p>
     <p>ツールは 150 本を超え、下のカテゴリに分けています。税率・料率や法令の定め、祝日・郵便番号の一覧のような計算や変換の決まりは、法令や省庁・事業者が公表している資料で確かめ、各ツールのページに出典と確かめた日を載せています。</p>
@@ -168,7 +169,7 @@
   <section aria-labelledby="links-heading">
     <h2 id="links-heading">リンク</h2>
     <ul>
-      <li><a class="link" href="https://c2nprds.com/tools/">入力を送らないツール <span>ツール集</span></a></li>
+      <li><a class="link" href="https://c2nprds.com/tools/">ノコサンゾー <span>ツール集</span></a></li>
       <li><a class="link" href="https://github.com/c2nprds">GitHub <span>@c2nprds</span></a></li>
       <li><a class="link" href="https://x.com/c2nprds">X <span>@c2nprds</span></a></li>
       <li><a class="link" href="https://www.facebook.com/c2nprds">Facebook <span>@c2nprds</span></a></li>
