@@ -1,0 +1,19 @@
+index.html
+  s_f29a7f29840dc2::t_66dd092f31300a 7,11,102-134,147-178,180-182,184
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "480b1717058c53a0590dc34747c9ab61563951a2",
+  "prompts": {},
+  "sessions": {
+    "s_f29a7f29840dc2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0aa134fc-a851-4a9e-8fb2-4f4f61943115",
+        "model": "unknown"
+      },
+      "human_author": "c2nprds <c2nprds@gmail.com>"
+    }
+  }
+}
