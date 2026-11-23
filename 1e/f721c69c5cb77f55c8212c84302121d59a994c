@@ -1,0 +1,19 @@
+index.html
+  s_12cd894d78a249::t_9b24ac687aa491 125
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1ef721c69c5cb77f55c8212c84302121d59a994c",
+  "prompts": {},
+  "sessions": {
+    "s_12cd894d78a249": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "33fc12c6-88cf-410a-8d30-6f65b46eb918",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "c2nprds <c2nprds@gmail.com>"
+    }
+  }
+}
